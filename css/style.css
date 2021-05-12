@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  max-width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (min-width: 920px) {
+  .card {
+    min-width: 920px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.card__types {
+  padding: 45px 45px 60px 45px;
+}
+
+.card__types--title {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.6em;
+  color: #f2f2f2;
+}
+
+.card__types--description {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 40px;
+  line-height: 1.6;
+  word-spacing: 0.13em;
+}
+
+@media (min-width: 920px) {
+  .card__types--description {
+    margin-bottom: 100px;
+  }
+}
+
+.card__sedans {
+  background-color: #e38826;
+}
+
+.card__sedans--btn {
+  color: #e38826;
+}
+
+.card__suvs {
+  background-color: #006970;
+}
+
+.card__suvs--btn {
+  color: #006970;
+}
+
+.card__luxury {
+  background-color: #004241;
+}
+
+.card__luxury--btn {
+  color: #004241;
+}
+
+.card__btn {
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  outline: none;
+}
+
+.card__btn:hover, .card__btn:focus {
+  background-color: inherit;
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
