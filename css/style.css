@@ -99,6 +99,8 @@ body {
   border: 2px solid #f2f2f2;
   border-radius: 30px;
   outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .card__btn:hover, .card__btn:focus {
