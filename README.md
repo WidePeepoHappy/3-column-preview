@@ -78,7 +78,7 @@ Also changed the outline on buttons for a focus state. Learned that today from K
 
 ### Continued development
 
-SASS seems easy, but there are a lot of ways to make code look cleaner. This and css clean css in general are my main focus for now.
+SASS seems easy, but there are a lot of ways to make code look cleaner. This and clean css in general are my main focus for now.
 
 ### Useful resources
 
